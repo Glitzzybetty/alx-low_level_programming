@@ -1,4 +1,4 @@
-#include "zain.h"
+#include "main.h"
 
 /**
  * _atx - converts a string to an integer.
