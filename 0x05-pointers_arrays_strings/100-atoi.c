@@ -5,7 +5,7 @@
  * @s: input string.
  * Return: integer.
  */
-int _atx(char *s)
+int _atoi(char *s)
 {
 	unsigned int count = 0, size = 0, x = 0, y = 1, z = 1, i;
 
