@@ -26,6 +26,11 @@ if  (new_node->str == NULL)
 	return (NULL);
 }
 
+if (!head)
+{
+	return (NULL);
+}
+
 if (head)
 {
 	new_node->next = *head;
