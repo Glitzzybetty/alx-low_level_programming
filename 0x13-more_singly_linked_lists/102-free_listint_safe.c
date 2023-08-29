@@ -29,7 +29,7 @@ listint_t **assign(listint_t **list, size_t size, listint_t *new)
 
 /**
  * free_listint_safe - a function that frees a listint_t linked list
- * @head: double pointer to the start 
+ * @head: double pointer to the start
  *
  * Return: tthe size of the list that was free’d
  */
