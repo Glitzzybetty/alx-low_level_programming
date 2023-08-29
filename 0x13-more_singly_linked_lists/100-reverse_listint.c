@@ -1,8 +1,8 @@
-include "lists.h"
+#include "lists.h"
 
 /**
   * reverse_listint - a function that reverses
-  *a listint_t linked list
+  * a listint_t linked list
   *
   * @head: pointer to head of the list
   * Return: a pointer to the first node of the reversed list
