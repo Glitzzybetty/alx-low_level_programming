@@ -6,16 +6,14 @@
  * @h: pointer to the list
  * Return: size_t the number of nodes.
  */
-
 size_t list_len(const list_t *h)
 {
-	const list_t *place = h;
-	size_t count = 0;
+	int count = 0;
 
-    while (place != NULL) {
-        place = place->next;
-        count++;
-    }
-
-    return (count);
+	while (h)
+	{
+		count++;
+		h = h->next;
+	}
+	return (count);
 }
