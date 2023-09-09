@@ -18,7 +18,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		vl <<= 1;
 		if (*(b + n) == '1')
-			dec ^= 1;
+			vl ^= 1;
 		n++;
 	}
 	return (vl);
